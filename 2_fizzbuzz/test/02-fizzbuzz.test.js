@@ -1,9 +1,9 @@
 const chai = require('chai');
-const  = require('../02-fizzbuzz');
+const fizzbuzz = require('../02-fizzbuzz');
 const assert = chai.assert;
 
-describe('', () => {
-    it('should ', () => {
-        
+describe('array', () => {
+    it('should return array', () => {
+        assert.isArray(looping());
     })
-})
+}) 

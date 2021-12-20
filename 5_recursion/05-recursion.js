@@ -8,8 +8,4 @@ export function isEven(num) {
     } else {
       return isEven(num - 2);
     }
-  }
-  
-isEven(50);
-isEven(75);
-isEven(-1);
+}

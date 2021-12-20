@@ -3,11 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "07-sum-of-range.js",
+  "type": "module",
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx c8 mocha"
   },
   "keywords": [],
   "author": "",

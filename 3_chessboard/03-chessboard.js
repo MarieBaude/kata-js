@@ -6,5 +6,5 @@ module.exports = function chessBoard(size) {
            console.log('' + '# # # #');
          }
       }
-      return chessBoard(8);
-   }
+    return chessBoard(8);
+}

@@ -6,4 +6,4 @@ describe('chessboard', () => {
     it("should return yes it's a string", () => {
         assert.isString(chessBoard(), 'message');
     })
-})
+}) 

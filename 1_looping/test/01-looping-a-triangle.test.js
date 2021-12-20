@@ -1,6 +1,6 @@
-const chai = require('chai');
-const looping = require('../01-looping-a-triangle');
+import chai from 'chai'; 
 const assert = chai.assert;
+import {looping} from '../01-looping-a-triangle.js';
 
 describe('values', () => {
     it('should return #', () => {

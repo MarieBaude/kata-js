@@ -1,0 +1,19 @@
+{
+  "name": "6_counting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "npx c8 mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "c8": "^7.10.0",
+    "chai": "^4.3.4"
+  }
+}

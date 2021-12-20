@@ -1,5 +1,4 @@
-import chai from 'chai'; 
-import { it } from 'mocha';
+import chai from 'chai';
 const assert = chai.assert;
 import {chessBoard} from '../03-chessboard.js';
 

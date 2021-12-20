@@ -10,7 +10,7 @@ describe('array', () => {
 
 describe('length', () => {
     it('should return length of array', () => {
-        assert.lengthOf(fizzbuzz(), 1);
+        assert.lengthOf(fizzbuzz(), 100);
     })
 })
 
@@ -21,7 +21,7 @@ describe('index 0', () => {
 })
 
 describe('index 2', () => {
-    it('should return index 2 is a not number', () => {
+    it('should return index 2 (ligne 3) is a not number', () => {
         assert.isNotNumber(fizzbuzz()[2]);
     })
 })

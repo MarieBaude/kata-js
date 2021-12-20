@@ -1,6 +1,6 @@
-const chai = require('chai');
-const min = require('../04-minimum');
+import chai from 'chai';
 const assert = chai.assert;
+import {} from '../04-minimum.js';
 
 describe('', () => {
     it('should return ', () => {

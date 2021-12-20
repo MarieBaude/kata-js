@@ -1,10 +1,13 @@
-export function chessBoard() {
-    for(let i = 0; i < 8; i++) {
+export function chessBoard(size) {
+    let array = [];
+    for(let i = 0; i < size; i++) {
         if (i % 2 === 0) {
-           console.log(' ' + '# # # #');
+          array.push(' # # # #');
+          console.log(' # # # #');
          } else {
-           console.log('' + '# # # #');
+          array.push('# # # #');
+          console.log('# # # #');
          }
       }
-    return chessBoard();
-}
+    return array;
+} 

@@ -1,6 +1,6 @@
-const chai = require('chai');
-const fizzbuzz = require('../02-fizzbuzz');
+import chai from 'chai'; 
 const assert = chai.assert;
+import {fizzbuzz} from '../02-fizzbuzz.js';
 
 describe('array', () => {
     it('should return array', () => {

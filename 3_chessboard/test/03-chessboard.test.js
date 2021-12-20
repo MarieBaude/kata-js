@@ -1,9 +1,9 @@
-const chai = require('chai');
+import chai from 'chai'; 
 const assert = chai.assert;
-const chessBoard = require('../03-chessboard');
+import {chessBoard} from '../03-chessboard.js';
 
 describe('chessboard', () => {
     it("should return yes it's a string", () => {
-        assert.isString(chessBoard(), 'message');
+        assert.isString(chessBoard());
     })
 }) 

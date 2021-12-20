@@ -1,10 +1,10 @@
-module.exports = function chessBoard(size) {
-    for(let i = 0; i < size; i++) {
+export function chessBoard() {
+    for(let i = 0; i < 8; i++) {
         if (i % 2 === 0) {
            console.log(' ' + '# # # #');
          } else {
            console.log('' + '# # # #');
          }
       }
-    return chessBoard(8);
+    return chessBoard();
 }

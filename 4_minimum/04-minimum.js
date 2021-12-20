@@ -1,4 +1,4 @@
 export function minimum () {
     let min = (a, b) => Math.min(a, b);
-    console.log(min(5, 2));
+    return (min(5, 2));
 }

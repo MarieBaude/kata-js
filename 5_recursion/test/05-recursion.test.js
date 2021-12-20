@@ -4,6 +4,6 @@ import {isEven} from '../05-recursion.js';
 
 describe('', () => {
     it('should return ..', () => {
-       
+        assert.isNumber(isEven());
     })
 }) 

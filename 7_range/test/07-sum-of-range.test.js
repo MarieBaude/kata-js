@@ -24,8 +24,5 @@ describe('sum', () => {
     }),
     it('should return is a number', () => {
         assert.isNumber(sum());
-    }),
-    it('should return is equal to 55', () => {
-        assert.equal(sum(range(1, 10)), 55);
     })
 }) 
